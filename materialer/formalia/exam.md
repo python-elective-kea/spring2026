@@ -27,7 +27,7 @@ Din mundtlige eksamen består af
 
 ## Karaktergivning
 Eksamen bedømmes efter 7-trinsskalaen.     
-Vurderingen er baseret på i hvor høj grad [**Applikationenens format**](#applikationens-format) er opfyldt og på din forståelse af emener og applikationen ved den mundtlige prøve. 
+Vurderingen er baseret på i hvor høj grad [**Applikationenens format**](#applikationens-format) er opfyldt, og i hvor høj grad du forstår emner og applikation til den mundtlige prøve. 
 
 ## Studieordningen
 Du kan se studieordningen inklusiv eksamensbeskrivelse [her](https://katalog.kea.dk/course/3050406/2025-2026)
