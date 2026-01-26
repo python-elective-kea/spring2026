@@ -12,7 +12,7 @@ Din applikation skal gøre brug af følgende teknologier:
 1. Streamlit
 2. Flask eller FastAPI
 3. Numpy, Pandas og Matplotlib
-4. Vector Databaseri
+4. Vector Databaser
 5. Interaktion med en LLM´s API (feks. Mistral).    
 6. Din applikation skal desuden kunne køres ved hjælp af Docker Compose `docker compose up`, `docker compose down`.
 
