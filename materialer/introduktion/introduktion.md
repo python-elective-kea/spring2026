@@ -41,24 +41,22 @@ Vi kommer i sidste halvdel af dagen til at arbejde med disse sprogelementer. (br
 * [Python Glossary - elif](https://realpython.com/ref/keywords/elif/) 
 * [Built-in Functions](https://docs.python.org/3/library/functions.html)
 
-Derudover kommer vi til at berører emenrne i disse links og artikler:
-* [Is Python interpreted or compiled? Yes.](https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html)
-* [Strings and Character Data in Python](https://realpython.com/python-strings/)
-* [The PyCoder’s Weekly](https://pycoders.com/issues/687)
-
 Og i kan finde koden fra tavlen i dag her:
 * [Kode fra undervisningen](kode_fra_undervisning.ipynb)
 
 ### Øvelser
-* [Notebook getting started](https://github.com/python-elective-kea/fall2023-code-examples-from-teachings/blob/master/ses1/playground.ipynb)
+I undervisningen arbejder vi med disse 2 øvelser:
+
 * [Strings1](string1.ipynb)
 * [String2](string2.ipynb)
-* ([Løsninger](solutions)(kan ses om nogle dage))
+
+Inden næste gang skal i have gennemgået denne tutorial:
+
+* [Hello, Python](https://www.kaggle.com/code/colinmorris/hello-python)
+
+Og i kan med fordel lave disse øvelser (men det er dog "optional")
+
+* [Øvelse: list1](list1.ipynb)
+* [Øvelse: list2](list2.ipynb)
 
 
-<!--
-#### Quizes
-
-* [Python Strings and Character Data Quiz](https://realpython.com/quizzes/python-strings/)
-* [Splitting, Concatenating, and Joining Strings in Python Quiz](https://realpython.com/quizzes/python-split-strings/)
--->
