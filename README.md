@@ -1,5 +1,5 @@
 # Introduktion til Python forår 2026    
-
+khhkjhkjhkjhkjhkjhkjhkjhkjhk
 ## Lektionsplan
 
 | Lektion |   Dato  | Emne                                                                              |
