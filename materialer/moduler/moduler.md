@@ -111,9 +111,9 @@ I opfordres til at følge **KISS** designprincippet. **Keep it simple stupid**. 
 
 ### Øv 4: CSV
 
-* Læs [reviews.csv](reviews.csv) filen vha. `csv` modulet.    
-* Udskriv reviews kollonen (kun reviews kollonnen!)
-* Udskriv reviews kollonnen med vivt_id 3267
+    * Læs [reviews.csv](reviews.csv) filen vha. `csv` modulet.    
+    * Udskriv reviews kollonen (kun reviews kollonnen!)
+    * Udskriv reviews kollonnen med vivt_id 3267
 
 <!-- 
 ### Øv 5: Download filer

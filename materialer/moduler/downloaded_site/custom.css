@@ -1,0 +1,22 @@
+.rst-footer-buttons { 
+    display: none;
+}
+
+.prev-next-area {
+    display: none;
+} 
+
+/* Toctree  */
+.toctree-l1 ul { 
+    display:none; 
+}
+.toctree-l2 { 
+    display:none; 
+}
+.toctree-l3 { 
+    display:none; 
+}
+h1 .section-number, h2 .section-number, h3 .section-number, h4 .section-number{
+    display:none;
+}
+
