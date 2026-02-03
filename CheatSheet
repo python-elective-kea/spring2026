@@ -1,0 +1,53 @@
+PIP CHEAT SHEET
+==============
+
+pip --version
+pip list
+pip show pkg
+
+pip install pkg
+pip install pkg==1.2.3
+pip install -U pkg
+pip uninstall pkg
+
+python -m pip install pkg
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+python -m venv venv
+venv\Scripts\activate        (Windows)
+source venv/bin/activate    (Linux/macOS)
+deactivate
+
+pip check
+pip cache purge
+
+
+
+SETUP CHEAT SHEET
+==============
+# Create venv
+python -m venv .venv
+
+# Activate venv
+# Windows
+.venv\Scripts\activate
+
+# Linux / macOS
+source .venv/bin/activate
+
+# Install packages
+pip install <package>
+
+# Save dependencies
+pip freeze > requirements.txt
+
+# Restore dependencies
+pip install -r requirements.txt
+
+# Verify interpreter
+python -c "import sys; print(sys.executable)"
+
+# choose interpreter 
+py -3.13 -m venv .venv
