@@ -30,13 +30,17 @@ SETUP CHEAT SHEET
 ==============
 # Create venv
 python -m venv .venv
+python3 -m venv .venv  # 
+
 
 # Activate venv
 # Windows
 .venv\Scripts\activate
 
-# Linux / macOS
+# Linux / macOS.
 source .venv/bin/activate
+
+# If windows use git bash
 
 # Install packages
 pip install <package>
@@ -52,3 +56,12 @@ python -c "import sys; print(sys.executable)"
 
 # choose interpreter 
 py -3.13 -m venv .venv
+
+
+
+# basic things to remember.
+# Python modules are files with Python code in run time for a user-specific code. 
+#Python packages modify the user-interpreted code for it to get easily functioned in the run time.
+
+from math import pi
+import pandas as pd
