@@ -1,67 +1,47 @@
-PIP CHEAT SHEET
-==============
+PIP / VENV / UV CHEAT SHEET
+==========================
 
+# pip
 pip --version
 pip list
-pip show pkg
-
-pip install pkg
-pip install pkg==1.2.3
-pip install -U pkg
-pip uninstall pkg
-
-python -m pip install pkg
-
+pip show <pkg>
+pip install <pkg>
+pip install <pkg>==1.2.3
+pip install -U <pkg>
+pip uninstall <pkg>
+python -m pip install <pkg>
 pip freeze > requirements.txt
 pip install -r requirements.txt
-
-
-python -m venv venv
-venv\Scripts\activate        (Windows)
-source venv/bin/activate    (Linux/macOS)
-deactivate
-
 pip check
 pip cache purge
 
-
-
-SETUP CHEAT SHEET
-==============
-# Create venv
+# venv
 python -m venv .venv
-python3 -m venv .venv  # 
-
-
-# Activate venv
-# Windows
-.venv\Scripts\activate
-
-# Linux / macOS.
-source .venv/bin/activate
-
-# If windows use git bash
-
-# Install packages
-pip install <package>
-
-# Save dependencies
-pip freeze > requirements.txt
-
-# Restore dependencies
-pip install -r requirements.txt
-
-# Verify interpreter
+python3 -m venv .venv
+py -3.13 -m venv .venv
+.venv\Scripts\activate        # Windows
+source .venv/bin/activate    # Linux/macOS (Git Bash on Windows)
+deactivate
 python -c "import sys; print(sys.executable)"
 
-# choose interpreter 
-py -3.13 -m venv .venv
+# uv
+pip install uv
+uv venv .venv
+source .venv/bin/activate
+uv sync --all-extras
+uv pip install <pkg> <pkg>
+uv pip install -r requirements-dev.txt
+uv pip sync requirements.txt
+uv pip sync pyproject.toml
+uv run python script.py
+uv run pytest
+uv run pre-commit run --all-files
 
-
-
-# basic things to remember.
-# Python modules are files with Python code in run time for a user-specific code. 
-#Python packages modify the user-interpreted code for it to get easily functioned in the run time.
-
+# misc
+pip freeze > requirements.txt
 from math import pi
 import pandas as pd
+
+# notes
+Module = single .py file
+Package = folder of modules
