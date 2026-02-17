@@ -18,12 +18,18 @@ Ingen forberedelse til i dag.
 Dog, en god ide at skimme materialet på denne side inden undervisningen.
 
 ## Dagen i dag
+* [Installation](https://docs.mistral.ai/mistral-vibe/introduction/install)
+* [Quickstart](https://docs.mistral.ai/mistral-vibe/introduction/quickstart)
+
+---
 
 * [Installer uv](01._install_uv.md)
 * [Installer Mistral](02._install_mistral.md)
 * [Why Should I Choose pyproject.toml over requirements.txt for managing dependencies?](https://pydevtools.com/handbook/explanation/pyproject-vs-requirements/)
+
+---
+
 * [Mistral-vibe samarbejde](exercises/01._cli_info_cooparate.md)
-* [Quickstart](https://docs.mistral.ai/mistral-vibe/introduction/quickstart)
 
 ### Øvelser
 * [Mistral-vibe samarbejde](exercises/01._cli_info_cooparate.md)
