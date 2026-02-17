@@ -31,7 +31,7 @@ Dog, en god ide at skimme materialet på denne side inden undervisningen.
 
 * [Mistral-vibe samarbejde](exercises/01._cli_info_cooparate.md)
 
-* [Azure Available Regions](https://github.com/anderslatif/EK_Azure/blob/main/tutorials/available_regions/azure_available_regions.md)
+
 
 ### Øvelser
 * [Mistral-vibe samarbejde](exercises/01._cli_info_cooparate.md)
