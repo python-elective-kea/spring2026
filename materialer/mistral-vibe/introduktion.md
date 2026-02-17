@@ -37,4 +37,5 @@ Dog, en god ide at skimme materialet på denne side inden undervisningen.
 * [env file change](exercises/04._change_code_use_of_repo_env_file.md)
 * [find & ændre](exercises/06._find_and_chance_in_code.md)
 * [Kodeændringer og PR](exercises/03._code_contribution.md)
+* [Bugfixing](exercises/07._bug_fixing.md)
 * [Global install Mistral-Vibe](exercises/05._install_mistral_global.md)
