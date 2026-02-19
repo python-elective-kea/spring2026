@@ -48,7 +48,7 @@ Så kigger vi på 3 moduler ```OS```, ```subprocess``` og ```requests```. [Demo 
 * [Moduler og pakker i python 3 (3. parts)](https://youtu.be/wbEWDsj3vIg) (8:20)
 * [Python Module Index](https://docs.python.org/3/py-modindex.html) 
 * [Requests: HTTP for Humans™](https://docs.python-requests.org/en/latest/)
-
+* [Demo fra klassen](https://github.com/python-elective-kea/module-demo)
 ## Øvelser
 
 ### Øv 1: Environment variabler og OS modulet
