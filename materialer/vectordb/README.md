@@ -1,5 +1,5 @@
 # Vector Databaser, Embeddings og søgefunktionalitet
-I dag skal vi arbejde med embeddingmoddels og vi skal gemme disse i en vectordatbase og i sidtse ende bruge data til at lave simularity searches.
+I dag skal vi arbejde med embeddingmodels og vi skal gemme disse i en vectordatbase og i sidtse ende bruge data til at lave simularity searches.
 
 ![](assets/embedding-diagram.gif)
 
