@@ -22,4 +22,7 @@ Python bliver bindeledet, limen der binder det hele sammen.
 
 ### Øvelser
 * [Create a Search engine]()
+* `docker pull chromadb/chroma:latest`
+
+
 
