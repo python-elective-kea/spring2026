@@ -17,6 +17,7 @@ Python bliver bindeledet, limen der binder det hele sammen.
 
 ## Dagen i dag
 * [Embeddings & Vectorer]()
+* [ChromaDB - Getting started](chromadb-getting-started.ipynb)
 * [ChromaDB - Getting started](https://docs.trychroma.com/docs/overview/getting-started)
 
 ### Øvelser
