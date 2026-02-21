@@ -7,7 +7,7 @@
 |    1    |   27/1  | [Introduktion til python](materialer/introduktion/introduktion.md)|
 |    2    |   10/2  | [Modules, virtual environmnets, requirements.txt, environment variables](materialer/moduler/moduler.md) |
 |    3    |   17/2  | [Mistral & mistral-vibe](materialer/mistral-vibe/introduktion.md) |
-|    4    |   24/2  | [Vector Databaser, Embeddings og søgefunktionalitet]()|
+|    4    |   24/2  | [Vector Databaser, Embeddings og søgefunktionalitet](materialer/vectordb/README.md)|
 |    5    |   3/3  | [Obligatorisk opgave 1](materialer/obligatoriske/obligatorisk_1.md) (Online, vejledning via Teams if needed)  |
 |    6    |   10/3   | [Web frameworks - Flask, FatsAPI]()|
 |    7    |  17/3   | [Streamlit frontend]() |
