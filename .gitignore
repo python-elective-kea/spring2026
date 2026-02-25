@@ -35,7 +35,7 @@ materialer/decorators/
 materialer/generators/
 materialer/logik/
 #materialer/moduler/
-materialer/obligatoriske/
+#materialer/obligatoriske/
 materialer/oop/
 materialer/eksamensprojekt/
 #materialer/mistral-vibe/
