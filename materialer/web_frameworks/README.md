@@ -7,7 +7,7 @@
 * Forstå og bruge python´s type hints
 * Forstå forskellen på `sync` og `async` funktioner
 * Kunne oprette et og køre projekt med `uv`
-
+* Kunne arbejde med `sqlite3` i gennem python scripts
 ## Forberedelse
 
 Skim følgende sider igennem
