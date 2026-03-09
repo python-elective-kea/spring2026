@@ -25,4 +25,8 @@ Vi kigger på 2 forskellige frameworks: først `Flask` og herefter `FastAPI`, og
 * [Kode fra undervisningen](https://github.com/python-elective-kea/kode_fra_undervisning_webframeworks)
 
 ### Tutorials
-* [fastapi basic setup](exercises/fastapi_basic_setup.md)
+Disse tutorials er ca. hvad der er blevet gennemgået ved tavlen. Brug dem som en "opfrisker". 
+
+* [Flask basic setup with venv](exercises/flask_basic_setup_venv.md)
+* [fastapi basic setup with `pip`](exercises/fastapi_basic_setup_venv.md)
+* [fastapi basic setup with `uv`](exercises/fastapi_basic_setup.md)
