@@ -1,6 +1,10 @@
 PIP / VENV / UV CHEAT SHEET
 ==========================
 
+
+code with alot of folders 
+code . (at the folder you want then act as if it is a new project)
+
 # pip
 pip --version
 pip list
@@ -15,27 +19,36 @@ pip install -r requirements.txt
 pip check
 pip cache purge
 
+
+# gitignore
+vim .gitignore # this 
+nano .gitignore
+code .gitignore
+cat > .gitignore
+git config --global core.excludesfile ~/.gitignore_global
+
 # venv
 python -m venv .venv
 python3 -m venv .venv
 py -3.13 -m venv .venv
 .venv\Scripts\activate        # Windows
-source .venv/bin/activate    # Linux/macOS (Git Bash on Windows)
+source .venv/bin/activate    # Linux/macOS 
 deactivate
 python -c "import sys; print(sys.executable)"
 
-# uv
+# uv 
 pip install uv
 uv venv .venv
-source .venv/bin/activate
-uv sync --all-extras
+-----------pip install mistral-vibe
+source .venv/Scritps/activate
+-------uv sync --all-extras
 uv pip install <pkg> <pkg>
 uv pip install -r requirements-dev.txt
 uv pip sync requirements.txt
 uv pip sync pyproject.toml
 uv run python script.py
 uv run pytest
-uv run pre-commit run --all-files
+--------uv run pre-commit run --all-files
 
 # misc
 pip freeze > requirements.txt
@@ -45,3 +58,40 @@ import pandas as pd
 # notes
 Module = single .py file
 Package = folder of modules
+
+
+
+#argsparse 
+
+    Command: A program or routine that runs at the command line or terminal window. You’ll typically identify a command with the name of the underlying program or routine.
+
+    Argument: A required or optional piece of information that a command uses to perform its intended action. Commands typically accept one or many arguments, which you can provide as a whitespace-separated or comma-separated list on your command line.
+        Positional arguments, which you know as arguments
+        Optional arguments, which you know as options, flags, or switches
+
+    Option, also known as flag or switch: An optional argument that modifies a command’s behavior. Options are passed to commands using a specific name, like -l in the previous example.
+
+    Parameter: An argument that an option uses to perform its intended operation or action.
+
+    Subcommand: A predefined name that can be passed to an application to run a specific action.
+$ pip install -r requirements.txt
+
+    pip: The command’s name
+    install: The name of a subcommand of pip
+    -r: An option of the install subcommand
+    requirements.txt: An argument, specifically a parameter of the -r option
+
+
+webframework backend commands for flask, fast API
+flask run --port 3000
+python app.py
+flask run --debug
+flask shell
+flask routes
+python -m pip install flask
+pip install flask
+
+
+uvicorn app_name:app --reload --port 3000
+python -m pip install fastapi uvicorn jinja2 python-multipart
+pip install fastapi uvicorn jinja2 python-multipart
