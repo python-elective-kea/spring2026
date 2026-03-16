@@ -14,9 +14,58 @@ Vi vil først gennemgå de basale dele af dokumentetionen og herefter laver i et
 ## Dagen i dag
 * Vi starter med en gennemgang af dokumentationen [Streamlit.io](https://streamlit.io/) og laver nogle mindre øvelser.
 * Herefter laver i jeres eget projekt (som evt. vil kunne være jeres eksamensprojekt) 
+* [Demo fra klassen](https://github.com/python-elective-kea/streamlit_demo/tree/main)
 
 ### Øvelser
 
+#### Mock-up øvelse 
+Lav en applikation der ligner den du kan se på billedet herunder.
+
+![Streamlit exercise](assets/streamlit_exercise.png)
+
+De elementer du skal bruge er:
+
+**Input Widgets (Left Sidebar):**    
+
+* st.text_input() - Name field
+* st.number_input() - Age field
+* st.selectbox() - Color dropdown
+* st.multiselect() - Hobbies selection
+* st.slider() - Rating slider
+* st.select_slider() - Price range
+* st.date_input() - Birth date picker
+* st.time_input() - Meeting time
+* st.checkbox() - Notification preferences
+* st.radio() - Gender selection
+* st.text_area() - Comments field
+* st.button() - Submit button
+
+**Display & Output Components (Main Area):**    
+
+* st.metric() - KPI cards with deltas
+* st.progress() - Progress bars
+* st.success(), st.info(), st.warning(), st.error() - Status messages
+* st.code() - Syntax highlighted code
+* st.json() - Formatted JSON display
+
+---
+
+### Streamlit TODO app
+Lav en Streamlit TODO frontend baseret på denne backend som vi lavede sidste uge:
+
+* [http://20.100.199.144/docs](http://20.100.199.144/docs)
+* [http://20.100.199.144/redoc](http://20.100.199.144/redoc)
+
+
+
+<!--
+* Udvikel jeres egen app med brug af Stremalit.
+    * I skal brug requests og kontakt et api, (som api.github.com eller lignende.)
+    * I skal have multiple oages i jeres applikation.
+    * I skal bruge text_input felter i jeres applikation
+    * I skal have en requirement.txt fil.
+---
+
 * Udvikel jeres egen app med brug af Stremalit 
 * Host jeres applikation online på https://share.streamlit.io/
-
+--> 
