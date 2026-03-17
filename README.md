@@ -11,8 +11,9 @@
 |    5    |   3/3  | [Obligatorisk opgave 1](materialer/obligatoriske/obligatorisk_1.md) (Online - ingen undervisning)  |
 |    6    |   10/3   | [Web frameworks - Flask, FatsAPI](/materialer/web_frameworks/README.md)|
 |    7    |  17/3   | [Streamlit frontend](materialer/streamlit/README.md) |
-|    8    |  24/3   | [Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler]()|
+|    8    |  24/3   |  [Streamlit frontend](materialer/streamlit/README.md)                 |
 |         |         | Påskeferie                                                                                 |
+|    8    |  24/3   | [Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler]()|
 |    9    |   7/4   | [Dataanalyse med pandas, GeoPandas og matplotlib]() |
 |   10    |  14/4   | [Testing, linting og Code Quality]() |
 |   11    |  21/4   | White Hat Hacking with python |
