@@ -27,6 +27,8 @@ Lav en Streamlit TODO frontend baseret på denne backend som vi lavede sidste ug
 * [http://51.107.216.86/docs](http://51.107.216.86/docs)
 * [http://51.107.216.86/redoc](http://51.107.216.86/redoc)
 
+Ekstra: Til eksamen skal i have jeres apps kørende i dockerfiler. Den infrastruktur kan i godt sætte op nu. 
+
 ---
 
 #### GitHub Explorer
