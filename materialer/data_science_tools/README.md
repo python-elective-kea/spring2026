@@ -53,7 +53,7 @@ Vi kigger på hvordan man kan lave et plot som dette:
 
 ![](assets/big-o.png)
 
-* Kode fra undervisningen kan i finde [her](undervisningen.ipynb)
+* Kode fra undervisningen kan i finde [her](undervisning.ipynb)
 
 ## Materialeliste
 * [NumPy vs Pandas](https://www.youtube.com/watch?v=KHoEbRH46Zk)
