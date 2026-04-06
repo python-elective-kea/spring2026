@@ -74,7 +74,7 @@ Vi kigger på hvordan man kan lave et plot som dette:
 
 ### 1a. DAW med numpy
 * Brug `from scipy.io import wavfile`, `wavfile.read()` og `wavefile.write()` og numpy til at manipulere med lyden. 
-    Brug evt [Bongo_sound.wav](assets/Bongo_sound.wav)
+    Brug evt [Bongo_sound.wav](assets/assets_Bongo_sound.wav)
 
 ### 2. Lav disse plots
 Du skal lave koden der generer disse plots. Kom så tæt på denne illustration som muligt. Når du er færdig kan du forsøge at forbedre plotenes udseende. 
