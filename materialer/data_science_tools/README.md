@@ -13,6 +13,11 @@ Matplotlib bibliotekets formål er at generere visuelle grafer og diagrammer, of
 
 ## Forberedels
 Der er ingen forberedelse til i dag
+
+_jeg havde tidligere lagt en del forberedelse på her, men har fjernet det. Hvis du er gået i gang er det fint. det er ikke spildt arbejde. vi andre gør det bare efterfølgnede i stedet_.
+
+Du kan finde links til disse videoer under materiale længere nede,
+
 <!--
 _(forberedelse til i dag er på omkring 3 timer)_    
 
