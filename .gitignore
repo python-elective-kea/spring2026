@@ -23,6 +23,7 @@ teacher/*
 
 # løsninger på øvelser
 materialer/introduktion/solutions
+materialer/streamlit/solutions
 
 # Ignore all future fiolders
 materialer/boolean/

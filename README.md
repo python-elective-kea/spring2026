@@ -13,7 +13,7 @@
 |    7    |  17/3   | [Streamlit frontend](materialer/streamlit/README.md) |
 |    8    |  24/3   |  [Streamlit frontend](materialer/streamlit/README.md)                 |
 |         |         | Påskeferie                                                                                 |
-|    8    |  24/3   | [Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler]()|
+|    8    |  24/3   | [Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler](materialer/data_science_tools/README.md)|
 |    9    |   7/4   | [Dataanalyse med pandas, GeoPandas og matplotlib]() |
 |   10    |  14/4   | [Testing, linting og Code Quality]() |
 |   11    |  21/4   | White Hat Hacking with python |
