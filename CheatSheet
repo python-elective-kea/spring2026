@@ -4,6 +4,7 @@ PIP / VENV / UV CHEAT SHEET
 
 code with alot of folders 
 code . (at the folder you want then act as if it is a new project)
+git remote remove origin
 
 # pip
 pip --version
@@ -19,6 +20,9 @@ pip install -r requirements.txt
 pip check
 pip cache purge
 
+# dockercompose
+vim dockerfile
+docker-commpose up --build 
 
 # gitignore
 vim .gitignore # this 
@@ -49,6 +53,9 @@ uv pip sync pyproject.toml
 uv run python script.py
 uv run pytest
 --------uv run pre-commit run --all-files
+
+
+
 
 # misc
 pip freeze > requirements.txt
