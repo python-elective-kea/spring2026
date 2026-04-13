@@ -1,8 +1,9 @@
 # Dataanalyse med pandas og (numpy) og matplotlib
 
 ## Læringsmål
-* Kunne bruge biblioteket Pandas
-* Kunne bruge biblioteket Matplotlib
+* Kunne bruge biblioteket Pandas.
+* Kunne bruge biblioteket Matplotlib.
+* Kunne bruge Pandas og Matplotlib i forbindelse med Streamlit.
 
 ## Forberedels  
 Ingen forberedelse til idag.
