@@ -1,5 +1,5 @@
 ## Testing, Linting, Code Quality
-I dag kigger vi på et repository vi har arbejdet med tidligere på dette semester: https://github.com/mistralai/mistral-vibe. 
+I dag kigger vi på et repository vi har arbejdet med tidligere på dette semester: https://github.com/python-elective-kea/mistral-vibe. 
 
 Fokus vil være på hvordan projektet bruger unit-tests, Linting, static code ananlysis og i det hele taget har fokus på code quality. 
 
