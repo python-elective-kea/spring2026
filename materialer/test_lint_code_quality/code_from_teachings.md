@@ -10,7 +10,7 @@ uv add numpy
 ### 2. **ruff** (Linting)
 ```bash
 uv add --dev ruff
-ruff check --fix .
+uv run ruff check --fix .
 ```
 
 ### 3. **pytest** (Testing)
@@ -21,20 +21,20 @@ def add(a: int, b: int) -> int:
 ```
 ```python
 # tests/test_mymath.py
-from mymath import add
+from mymath.mymath import add
 
 def test_add():
     assert add(2, 3) == 5
 ```
 ```bash
 uv add --dev pytest
-pytest
+uv run pytest
 ```
 
 ### 4. **pyright** (Type Checking)
 ```bash
 uv add --dev pyright
-pyright
+uv run pyright
 ```
 
 ### 5. **PEP 8** (Style Guide)
@@ -66,16 +66,25 @@ repos:
     hooks:
       - id: pytest
         name: Run tests
-        entry: pytest
+        entry: uv run pytest
         language: system
         pass_filenames: false
 ```
 ```bash
 # Install hooks
-pre-commit install
+uv run pre-commit install
 ```
 **Demo:**
+
 - Try to commit code with a PEP 8 violation or failing test. The hook will block the commit until fixed.
+- Remeber to create a .gitignore file and add:
+
+```
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+```
 
 ---
 
@@ -84,54 +93,54 @@ pre-commit install
 **1. Intro (2 min):**
 “Today, we’ll set up a Python project with modern tools: `uv` for project management, `ruff` for linting, `pytest` for testing, `pyright` for type checking, and git hooks to automate quality checks.”
 
-**2. Project Setup (5 min):**
+**2. Project Setup:**
 ```bash
 uv init --lib mymath
 cd mymath
 uv add numpy
 ```
 
-**3. Add Code (3 min):**
+**3. Add Code:**
 ```python
 # mymath/mymath.py
 def add(a: int, b: int) -> int:
     return a + b
 ```
 
-**4. Linting (3 min):**
+**4. Linting:**
 ```bash
 uv add --dev ruff
-ruff check --fix .
+uv run ruff check --fix .
 ```
 
-**5. Testing (5 min):**
+**5. Testing:**
 ```python
 # tests/test_mymath.py
-from mymath import add
+from mymath.mymath import add
 
 def test_add():
     assert add(2, 3) == 5
 ```
 ```bash
 uv add --dev pytest
-pytest
+uv run pytest
 ```
 
-**6. Type Checking (3 min):**
+**6. Type Checking:**
 ```bash
 uv add --dev pyright
-pyright
+uv run pyright
 ```
 
-**7. Git Hooks (5 min):**
+**7. Git Hooks:**
 ```bash
 uv add --dev pre-commit
 # Create .pre-commit-config.yaml (as above)
-pre-commit install
+uv run pre-commit install
 # Demo: Try to commit bad code
 ```
 
-**8. Wrap-up (2 min):**
+**8. Wrap-up:**
 “Now you have a project with automated linting, testing, and type checking!”
 
 ---
