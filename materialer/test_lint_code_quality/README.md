@@ -42,12 +42,12 @@ I kan læse mere om dagens værktøjer i denne dokumentation. Dette er ikke obli
 **Feature**: "Tæl antalet af Emojis i en tekst streng"    
 **Mål**: Tilføj en `function` der tæller antallet af emojis i en tekst streng (feks.: "Hello 😊 world 🚀" → 2).
  
-1. Tilføj funktionen
+1. Tilføj funktionen (man kunne godt se denne type af function som en `utility`)
 
 <details>
   <summary>Hint (Tænk over problemt inden du ser hint og løsning)</summary>
 
-* Lav en ny fil: vibe/core/utils/emoji_counter.py
+* Lav en ny fil: `vibe/core/utils/emoji_counter.py`
 
 ```
 def count_emojis(text: str) -> int:
@@ -62,7 +62,7 @@ def count_emojis(text: str) -> int:
 <details>
   <summary>Hint (Tænk over problemt inden du ser hint og løsning)</summary>
 
-* Opret: tests/test_emoji_counter.py:
+* Opret: `tests/test_emoji_counter.py`:
 
 ```
 from vibe.core.utils.emoji_counter import count_emojis
@@ -85,17 +85,16 @@ uv run pre-commit run --all-files
 ``` 
 </details>
 
-<!--
- 3. 
-Optional Challenge
-• 
-For advanced students: "How would you integrate this into Mistral Vibe’s CLI?" (Hint: Add a command in vibe/cli/.
+4. Integrer dette i Mistral Vibe´s CLI  
 
-just in case would i then in the vibe/cli/clipboard.py be able to call the count_emojis("") function and then when copy pasting i will see a terminal message?
-Yes! Here’s how to integrate count_emojis into the clipboard functionality to show a message when copying text with emojis:
-Steps to Integrate
- 1. 
-Modify vibe/cli/clipboard.py Add this to the copy_to_clipboard function (or similar):
+"Hvordan ville du integrere dette i Mistral Vibe’s CLI?" (Hint: Tilføj en kommando til vibe/cli/.
+
+<details>
+  <summary>Hint (Tænk over problemt inden du ser hint og løsning)</summary>
+
+Modificer `vibe/cli/clipboard.py` tilføj dette til funktionen: `_copy_to_clipboard`:
+
+```
 from vibe.core.utils.emoji_counter import count_emojis
 
 def copy_to_clipboard(text: str) -> None:
@@ -103,11 +102,14 @@ def copy_to_clipboard(text: str) -> None:
     if emoji_count > 0:
         print(f"🎉 Copied text with {emoji_count} emoji(s)!")
     # ... rest of the existing copy logic
- 2. 
-Test It
-• 
-Copy text like "Hello 😊" → Terminal shows:
+
+```  
+</details>
+
+5. Test det
+
+Kopier teksten: "Hello 😊"
+Din terminal skal gerne vise:
 
 🎉 Copied text with 1 emoji(s)!
 
--->
