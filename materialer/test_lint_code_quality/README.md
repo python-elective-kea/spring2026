@@ -28,6 +28,8 @@ Herefter kigger vi overordnet på hvordan disse værektøjer kan bruges i nogle 
 * `pyright`
 * `pre-commit`
 
+* [Kode fra undervisningen](code_from_teachings.md)
+
 ## Materialer
 I kan læse mere om dagens værktøjer i denne dokumentation. Dette er ikke obligatorisk læsning.
 
