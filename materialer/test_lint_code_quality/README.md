@@ -17,7 +17,7 @@ Læs følgende dokumenter.
 * https://github.com/mistralai/mistral-vibe/blob/main/README.md
 
 ## Dagen i dag
-Lav en fork af [dette projekt](https://github.com/python-elective-kea/mistral-vibe) og `clone` det og `checkout ek-edition`.
+Lav en fork af [dette projekt](https://github.com/python-elective-kea/mistral-vibe) og `clone` det og `checkout ek-edition` nu er du på den branch vi bruger i dag. lav yderligere en `checkout -b <dit_navn>` for at lave en ny branch og skifte til den. Du kan nu gå i gang med at ændre i koden uden at skabe merge konflikter.
 
 Vi analysere først dette rpositories brug af testing og linting tools. 
 
