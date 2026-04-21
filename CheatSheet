@@ -34,7 +34,7 @@ git config --global core.excludesfile ~/.gitignore_global
 # venv
 python -m venv .venv
 python3 -m venv .venv
-py -3.13 -m venv .venv
+py -3.14 -m venv .venv
 .venv\Scripts\activate        # Windows
 source .venv/bin/activate    # Linux/macOS 
 deactivate
