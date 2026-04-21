@@ -28,7 +28,8 @@ Herefter kigger vi overordnet på hvordan disse værektøjer kan bruges i nogle 
 * `pyright`
 * `pre-commit`
 
-* [Kode fra undervisningen](code_from_teachings.md)
+* [Kode fra undervisningen - oversigt](code_from_teachings.md)
+* [Kode fra undervisning - Demo - GITHUB](https://github.com/python-elective-kea/kode_fra_undervisning_tests_linting)
 
 ## Materialer
 I kan læse mere om dagens værktøjer i denne dokumentation. Dette er ikke obligatorisk læsning.
