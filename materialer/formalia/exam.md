@@ -12,10 +12,9 @@ Din applikation skal gøre brug af følgende teknologier:
 1. Streamlit
 2. Flask eller FastAPI
 3. Numpy, Pandas og Matplotlib
-5. Interaktion med en LLM´s API (feks. Mistral).    
-6. Unitests, type checks, code analisys.
-6. Demonstration af et udvalgt emne fra "White Hat Hacking" lektionerne.
-7. Din applikation skal desuden kunne køres ved hjælp af Docker Compose `docker compose up`, `docker compose down`.
+4. Interaktion med en LLM´s API (feks. Mistral).    
+5. Unitests, type checks, code analisys.
+6. Din applikation skal desuden kunne køres ved hjælp af Docker Compose `docker compose up`, `docker compose down`.
 
 Hvad din applikation skal kunne er op til dig, emnet er frit.     
 **Du må dog ikke genbruge emnerne eller koden som er blevet brugt eller gennemgået gennemgået i undervisningen dette semester.** 
