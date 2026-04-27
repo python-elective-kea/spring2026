@@ -16,7 +16,7 @@
 |    9    |  7/4   | [Data Science Tools: Numpy, Pandas og Matplotlib: Intro til moduler](materialer/data_science_tools/README.md)|
 |    10    |  14/4   | [Dataanalyse med pandas, GeoPandas og matplotlib](materialer/data_science_tools_II/README.md) |
 |   11    |  21/4   | [Testing, linting og Code Quality](materialer/test_lint_code_quality/README.md) |
-|   12    |  28/4   | White Hat Hacking with python |
+|   12    |  ~~28/4~~   | ~~White Hat Hacking with python~~ |
 |   13    |  5/5   |[Obligatorisk opgave 2](materialer/obligatoriske/obligatorisk_2.md) |
 |   14    | 12/5    | [Eksamensforberedelse og vejledning](materialer/eksamensprojekt/eksamensprojekt.md) |
 |   15    |  19/5   |  [Eksamensforberedelse og vejledning](materialer/eksamensprojekt/eksamensprojekt.md)                               |
