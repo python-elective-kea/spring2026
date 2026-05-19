@@ -5,6 +5,9 @@ Eksamen i dette valgfag er en mundtlig prøve baseret på en afleveret applikati
 
 ## Aflevering på Wiseflow
 Et par uger inden den mundtlige eksamen skal du på Wiseflow aflevere din applikation. Dette skal være i form at et link til et repository (Github, eller lign.).
+
+Du må gerne arbejde videre på projektet efter aflevering. 
+
  
 ## Applikationens format
 Din applikation skal gøre brug af følgende teknologier:
